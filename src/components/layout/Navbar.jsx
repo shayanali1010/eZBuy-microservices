@@ -1,5 +1,4 @@
 "use client"
-import React, { useState } from 'react'
 import Link from "next/link";
 // import Image from "next/image";
 import { FaRegHeart, FaUser } from "react-icons/fa";
@@ -7,7 +6,6 @@ import { MdOutlineShoppingCart } from 'react-icons/md';
 import { FiPhoneCall } from 'react-icons/fi';
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <>
