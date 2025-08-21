@@ -30,6 +30,7 @@ const Header = () => {
               alt="logo"
               width={120}
               height={60}
+              priority
               className="w-[90px] md:w-[120px] h-auto cursor-pointer"
             />
           </Link>
