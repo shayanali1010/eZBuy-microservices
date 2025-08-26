@@ -3,9 +3,10 @@ import BestSeller from "@/components/home/BestSeller";
 import BrandForYou from "@/components/home/BrandForYou";
 import Categories from "@/components/home/Categories";
 import FeaturedBrands from "@/components/home/FeaturedBrands";
-import SponsorSection from "@/components/home/SponsorSection";
+import SponsorSection from "@/components/common/SponsorSection";
 import SponsorSecTwo from "@/components/home/SponsorSecTwo";
 import TopCategories from "@/components/home/TopCategories";
+import TopCategoryProducts from "@/components/home/TopCategoryProducts";
 import MainLayout from "@/layout/MainLayout";
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
         </div>
         <BestSeller />
         <BrandForYou/>
+        <TopCategoryProducts/>
       </div>
     </MainLayout>
   );

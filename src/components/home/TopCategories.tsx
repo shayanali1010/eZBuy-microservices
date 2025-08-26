@@ -6,10 +6,10 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 import ItemsLayout from "../common/ItemsLayout";
-import category1 from "../../../public/assets/homeImg/category1.png";
-import category2 from "../../../public/assets/homeImg/category2.png";
-import category3 from "../../../public/assets/homeImg/category3.png";
-import category4 from "../../../public/assets/homeImg/category4.png";
+import category1 from "../../../public/assets/commonImg/category1.png";
+import category2 from "../../../public/assets/commonImg/category2.png";
+import category3 from "../../../public/assets/commonImg/category3.png";
+import category4 from "../../../public/assets/commonImg/category4.png";
 import Image from "next/image";
 
 const TopCategories = () => {

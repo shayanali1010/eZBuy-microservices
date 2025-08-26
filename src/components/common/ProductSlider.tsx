@@ -36,6 +36,7 @@ interface ItemsSliderProps {
 
 // ---------------- Component ----------------
 const ProductSlider = ({ products, className, noOfCards, delayAutoPlayValue } : ItemsSliderProps) => {
+  const productData = [...products, ...products, ...products]
   return (
     <div className={`w-full ${className || ""}`}>
       <Swiper
@@ -55,7 +56,7 @@ const ProductSlider = ({ products, className, noOfCards, delayAutoPlayValue } : 
         }}
         className="my-8"
       >
-        {products.map((product) => (
+        {productData.map((product) => (
           <SwiperSlide key={product.id}>
             <div className={`bg-white shadow-md rounded-xl p-3 sm:p-4 hover:shadow-lg transition flex flex-col h-full`}>
               {/* Image */}

@@ -3,8 +3,8 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 // images
-import sponsor1 from "../../../public/assets/homeImg/sponsor1.png";
-import sponsor2 from "../../../public/assets/homeImg/sponsor2.png";
+import sponsor1 from "../../../public/assets/commonImg/sponsor1.png";
+import sponsor2 from "../../../public/assets/commonImg/sponsor2.png";
 
 /**
  * NOTE: yahi structure baad me API se as-is aayega
