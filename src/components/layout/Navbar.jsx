@@ -22,8 +22,8 @@ const Navbar = () => {
         <ul className="hidden md:flex list-none gap-6 flex-1 justify-center">
           <li><Link href="/" className="hover:text-yellow-400">Home</Link></li>
           <li><Link href="/about" className="hover:text-yellow-400">About</Link></li>
-          <li><Link href="/proucts" className="hover:text-yellow-400">Products</Link></li>
-          <li><Link href="/contact" className="hover:text-yellow-400">Contact</Link></li>
+          <li><Link href="/products" className="hover:text-yellow-400">Products</Link></li>
+          <li><Link href="./contact" className="hover:text-yellow-400">Contact</Link></li>
         </ul>
 
         {/* Right Section */}
