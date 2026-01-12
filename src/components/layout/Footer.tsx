@@ -102,8 +102,9 @@ const Footer: React.FC = () => {
       <div className="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
         <div className="flex gap-2">
           <select className="bg-[#232F3E] border border-gray-500 px-2 py-1 text-sm">
-            <option>Eng</option>
-            <option>Urdu</option>
+            <option>USD</option>
+            <option>PKR</option>
+            <option>EUR</option>
           </select>
           <div className="bg-[#232F3E] border border-gray-500 px-2 py-1 text-sm">
             <LanguageSelector position="top" />
