@@ -84,7 +84,7 @@ export default function PlaceOrder(){
                     </div>
         
                     {/* Place Order Button */}
-                    <button type="submit" className="w-full bg-gray-900 text-white text-sm font-medium py-3 rounded-md uppercase">
+                    <button className="w-full bg-gray-900 text-white text-sm font-medium py-3 rounded-md uppercase">
                       Place Order
                     </button>
                   </div>

@@ -222,7 +222,7 @@ export default function CheckoutForm(){
           )}
               </div>
 
-              {/* Checkbox for Create an account */}
+          
               <div className="flex items-center">
                 <input
                   type="checkbox"

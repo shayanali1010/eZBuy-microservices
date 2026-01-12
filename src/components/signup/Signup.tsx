@@ -41,7 +41,7 @@ export default function Signup() {
       <div className="max-w-6xl mx-auto">
         <div className=" min-h-[600px] flex flex-col lg:flex-row  rounded-lg overflow-hidden">
           
-          {/* Left: Image */}
+         
           <div className="flex-1 flex items-center justify-center p-8">
             <div className="relative w-full max-w-md">
               <Image
@@ -54,19 +54,17 @@ export default function Signup() {
             </div>
           </div>
 
-          {/* Right: Form */}
           <div className="flex-1 flex items-center justify-center p-8">
             <div className="w-full max-w-sm space-y-6">
               
-              {/* Heading */}
+           
               <div className="space-y-2">
                 <AuthHeading heading="Register" paragraph="JOIN TO US"/>
               </div>
 
-              {/* Form */}
               <form className="space-y-4" onSubmit={handleSubmit}>
                 
-                {/* Name */}
+            
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-gray-700">
                     Your name
@@ -85,7 +83,6 @@ export default function Signup() {
               ) : null}
                 </div>
 
-                {/* Email */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-gray-700">
                     Email Address
@@ -104,7 +101,7 @@ export default function Signup() {
               ) : null}
                 </div>
 
-                {/* Password */}
+                
                 <div className="space-y-2">
                   <label htmlFor="password" className="text-sm font-medium text-gray-700">
                     Password
@@ -132,7 +129,7 @@ export default function Signup() {
                   </div>
                 </div>
 
-                {/* Confirm Password */}
+              
                 <div className="space-y-2">
                   <label htmlFor="confirmPassword" className="text-sm font-medium text-gray-700">
                     Confirm Password
@@ -162,10 +159,9 @@ export default function Signup() {
                   </div>
                 </div>
 
-                {/* Register Button */}
+          
                 <PrimaryBtn text="REGISTER"/>
 
-                {/* Login link */}
                 <div className="text-sm font-inter mt-4">
                   <AuthLink text="ALREADY USER ?" link="LOGIN" path="/Signup"/>
                 </div>

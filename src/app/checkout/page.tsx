@@ -10,15 +10,15 @@ const Checkout = () => {
   return (
     <div className="min-h-screen  py-8">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Header */}
+      
         <h1 className="text-2xl font-bold text-black uppercase mb-4">Checkout</h1>
         
        
         <CheckoutTop/>
 
-        {/* Main Content: Two Columns */}
+       
         <div className="flex flex-col md:flex-row gap-8">
-          {/* Left Column: Billing Details */}
+         
           <CheckoutForm/>
         
        
